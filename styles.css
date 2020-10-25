@@ -1,0 +1,22 @@
+div {
+  text-align: center;
+}
+
+.progress {
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 10px
+}
+
+.bar {
+  width: 0%;
+  height: 30px;
+}
+
+#person1 .progress .bar {
+  background-color: blue;
+}
+
+#person2 .progress .bar {
+  background-color: green;
+}

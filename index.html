@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting-process</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   </head>
+<body>
+
+    <div class="register">
+        <h1>Total Votes <span id="total">0</span></h1>
+
+        <div id="person1">
+            <h2 class="name">Karece</h2>
+            <h3 class="percentage">0%</h3>
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+            <button id="vote1" type="button" class="btn btn-primary">vote</button>
+        </div>
+
+        <div id="person2">
+            <h2 class="name">Robert</h2>
+            <h3 class="percentage">0%</h3>
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+            <button id="vote2" type="button" class="btn btn-primary">vote</button>
+        </div>  
+    </div>
+    <script src="./app.js"></script>    
+</body>
+</html>
